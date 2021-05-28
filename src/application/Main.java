@@ -16,7 +16,7 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner teclado = new Scanner(System.in);
 
-		SimpleDateFormat sdf = new SimpleDateFormat();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
 		System.out.println("Enter client data:");
 		System.out.print("Name: ");
